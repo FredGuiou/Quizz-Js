@@ -25,7 +25,7 @@ var question2 = "Quel est l'âge du capitaine ?";
 var solution2 = 63;
 
 var reponse2 = prompt (question2);
-reponse2 = parseInt(reponse2);
+reponse2 = parseInt(reponse2, 10);
 
 if (reponse2 === solution2) {
     alert ("Gagné");
